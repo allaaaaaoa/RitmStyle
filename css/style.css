@@ -150,12 +150,25 @@ a {
     align-items: center;
 }
 
-.div-blue {
-    position: relative;
-    bottom: 45px;
+.block_cards1::after {
+    opacity: 0;
+    content: '';
+    position: absolute;
+    height: 10px;
+    width: 100%;
     background: #018ABE;
-    border-radius: 0px 0px 10px 10px;
-    height: 7px;
+    transition: 0.3s;
+    bottom: 5px;
+    left: 0;
+    border-radius: 0 0 15px 15px;
+}
+
+.card-seans {
+    cursor: pointer;
+}
+
+.card-seans:hover::after {
+    opacity: 1;
 }
 
 .cards {
@@ -174,13 +187,25 @@ a {
     justify-content: space-between;
 }
 
+.block_cards1 {
+    position: relative;
+}
+
+.block_cards2 {
+    position: relative;
+}
+
 .block_cards3 {
     margin-top: 22px;
 }
 
+.seans-top {
+    margin-bottom: 20px;
+}
+
 .title-card {
-    position: relative;
-    bottom: 80px;
+    position: absolute;
+    bottom: 43px;
     left: 50px;
     font-family: 'ElMessiri-bold';
     font-style: normal;
@@ -201,11 +226,21 @@ a {
     color: #FFFFFF;
 }
 
-.title-card2 {
-    position: relative;
-    width: 336px;
+.text-card1 {
+    position: absolute;
+    left: 35px;
+    bottom: 30px;
+    background: none;
+    font-family: 'ElMessiri-bold';
+    font-size: 24px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.text-card2 {
+    position: absolute;
+    left: 20px;
     top: 194px;
-    left: 50px;
     font-family: 'ElMessiri-bold';
     font-style: normal;
     font-weight: 700;
@@ -215,7 +250,7 @@ a {
 }
 
 .title-card3 {
-    position: relative;
+    position: absolute;
     width: 336px;
     top: 160px;
     left: 484px;
@@ -226,9 +261,10 @@ a {
 }
 
 .title-card4 {
-    position: relative;
+    position: absolute;
     top: 194px;
     left: 50px;
+    width: 336px;
     font-family: 'ElMessiri-bold';
     font-style: normal;
     font-weight: 700;
@@ -242,7 +278,7 @@ a {
 }
 
 .title-card5 {
-    position: relative;
+    position: absolute;
     width: 336px;
     top: 160px;
     left: 484px;
@@ -517,27 +553,29 @@ iframe {
     cursor: pointer;
 }
 
-.text-foot{
+.text-foot {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
 }
-.p-ritm{
+
+.p-ritm {
     font-family: 'ProximaNova';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 135%;
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+    color: #FFFFFF;
 }
 
-.p-ritm2{
+.p-ritm2 {
     font-family: 'ProximaNova';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 135%;
-text-align: right;
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 135%;
+    text-align: right;
+    color: #FFFFFF;
 }
+
 /* FOOTER */

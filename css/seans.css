@@ -1,0 +1,44 @@
+/* SEANS */
+
+.format {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-format {
+    width: 526px;
+
+}
+
+.title-info {
+    margin-top: 60px;
+    position: relative;
+    font-family: 'ElMessiri-bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+
+}
+
+.text-blog::after {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: '13.02.2022';
+    position: absolute;
+    background: #018ABE;
+    bottom: 80px;
+    border-radius: 5px;
+    width: 96px;
+    height: 30px;
+    font-family: 'ProximaNova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 135%;
+    color: #FFFFFF;
+}
+
+/* SEANS */

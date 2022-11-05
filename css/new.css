@@ -1,0 +1,48 @@
+/* SEANS */
+
+.section-seans {
+    border-top: 1px solid #ffffff81;
+    border-bottom: 1px solid #ffffff81;
+    padding-top: 60px;
+    padding-bottom: 120px;
+    margin-bottom: 30px;
+}
+
+.card-seans {
+    position: relative;
+    cursor: pointer;
+}
+
+.card-seans::before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: '13.02.2022';
+    position: absolute;
+    background: #018ABE;
+    top: 30px;
+    left: 35px;
+    border-radius: 5px;
+    width: 96px;
+    height: 30px;
+    color: #FFFFFF;
+}
+
+.cards-serv {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.h3-serve {
+    font-family: 'ElMessiri-bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0 45px;
+}
+
+/* SEANS */
